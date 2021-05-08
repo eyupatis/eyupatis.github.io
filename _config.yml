@@ -52,5 +52,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-minima:
-  google_analytics: UA-49447327-1
+google_analytics: UA-49447327-1
