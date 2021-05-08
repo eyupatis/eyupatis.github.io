@@ -31,6 +31,8 @@ I manually copied my old posts under `/source/_posts` to `/_posts` folder. Becau
 
 At this point, I controlled the changes locally with `bundle exec jekyll serve` command and everything seemed fine.
 
+To use Github pages, we should remove `jekyll` from `Gemfile` and replace it with `gem "github-pages", group: :jekyll_plugins`. After doing this change we need to run `bundle install`. 
+
 The next step was deploying changes to Github. Because I created a totally new project, I had to define the remote url first.
 
 ```bash
