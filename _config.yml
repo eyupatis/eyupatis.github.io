@@ -23,12 +23,15 @@ email: eyupatis@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I’m a full stack engineer from Istanbul. This blog is generally about web technologies.
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'http://eyupatis.com' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://www.eyupatis.com' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: eyup_atis
 github_username: eyupatis
+github_repo: eyupatis.github.io
+social_username: eyup_atis
+linkedin_username: eyupatis
 
 # Build settings
-theme: minima
+theme: jekyll-swiss
 permalink: /:title/
 plugins:
   - jekyll-feed
