@@ -8,3 +8,7 @@
 @import 'theme-{{ site.theme_color | default: 'black' }}.scss';
 
 @import 'github.css';
+
+a {
+  color: #00b2e8;
+}
